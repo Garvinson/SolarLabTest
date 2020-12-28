@@ -111,7 +111,7 @@ namespace ConsoleMax
             for (var i = 0; i < list.Count; i++)
             {
                 
-                Console.WriteLine(i + ". " + list[i].Text + "\t\tдо " + list[i].Deadline.ToString("dd/MM/yyyy") + "\t" + (list[i].IsDone ? "Выполнено" : "Не выполнено"));
+                Console.WriteLine(list[i].Id + ". " + list[i].Text + "\t\tдо " + list[i].Deadline.ToString("dd/MM/yyyy") + "\t" + (list[i].IsDone ? "Выполнено" : "Не выполнено"));
             }
             Console.WriteLine();
         } 
